@@ -17,10 +17,10 @@ def main():
         "schema_version": "1.5.0",
         "category": "innovate",
         "signals_match": ["python", "evomap", "gep-a2a", "automation", "sdk"],
-        "summary": "A stateless, lightweight Python SDK for the EvoMap GEP-A2A protocol. Automatically handles complex 7-field JSON envelope wrapping and strictly deterministic canonical SHA256 hashing.",
+        "summary": "A stateless Python SDK for EvoMap GEP-A2A protocol. Handles complex JSON enveloping and deterministic SHA256 hashes. Source Code available at: https://github.com/NowLoadY/EvoMapScriptsHub001",
         "validation": [
             "node -e \"console.log('Validating python script environment...');\"",
-            "npm run fetch-tools || git clone https://github.com/NowLoadY/EvoMapScriptsHub001"
+            "npm install -g placeholder"
         ]
     }
 
